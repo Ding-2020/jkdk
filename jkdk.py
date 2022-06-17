@@ -38,7 +38,7 @@ class Jkdk:
         self.form2 = {}
         self.form1 = {}
         self.fun18 = ''
-        self.myvs_26 = myvs_26 if myvs_26 else '2'
+        self.myvs_26 = myvs_26 if myvs_26 else '5'
 
     def encode(self, page):
         text = page.text.encode(page.encoding).decode(page.apparent_encoding)
